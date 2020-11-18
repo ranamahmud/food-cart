@@ -1,0 +1,14 @@
+ion-icon {
+    font-size: 58px;
+}
+#footer{
+    color: white;
+}
+#footer p{
+      color: #A56B6B;
+      font-weight: bold;
+}
+
+img.rounded-circle {
+    border: 10px solid white;
+}
