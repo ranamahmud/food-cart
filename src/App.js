@@ -1,3 +1,4 @@
+import { Card } from 'react-bootstrap';
 import './App.css';
 import CartList from './components/CartList/CartList';
 import Footer from './components/Footer/Footer';
@@ -8,8 +9,18 @@ function App() {
   return (
     <div>
       <Header />
-      <CartList />
-      <Total />
+
+      <Card
+        style={{
+          borderRadius: '20px',
+          margin: "20px",
+          paddingTop: "30px",
+          paddingBottom: "30px"
+        }}
+      >
+        <CartList />
+        <Total />
+      </Card>
       <Footer />
     </div>
   );
