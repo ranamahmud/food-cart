@@ -8,7 +8,7 @@ const CartItems = (props) => {
             <Row>
                 <Col sm={4}> <Image src={require('../../images/sandwitch1.jpg').default} thumbnail /></Col>
                 <Col sm={8}>
-                    <Row sm={8}>{name}</Row>
+                    <Row>{name}</Row>
                     <Row>
                         <Col sm={4}><i className="fab fa-gripfire"></i>{calory} Cal</Col>
                         <Col sm={4}>{price} KWD</Col>
