@@ -5,7 +5,7 @@ const CartItems = (props) => {
     const { id, name, price, calory } = props.food;
     return (
         <Container>
-            <Row>
+            <Row id={id}>
                 <Col sm={4}> <Image src={require('../../images/sandwitch1.jpg').default} thumbnail /></Col>
                 <Col sm={8}>
                     <Row>{name}</Row>
