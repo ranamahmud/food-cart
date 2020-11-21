@@ -5,7 +5,7 @@ const initialState = {
     totalPrice: {}
 };
 
-export default foods = (state = initialState, action) => {
+const foods = (state = initialState, action) => {
     switch (action.type) {
         case ADD_FOOD: {
             let food = action.payload;
@@ -35,3 +35,4 @@ export default foods = (state = initialState, action) => {
             return state;
     }
 }
+export default foods;
